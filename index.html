@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <style type="text/css"></style>
+  <title>Giphy Homework</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Delicious Food Gify Page</h1>
+  <br>
+
+
+  <div class="button-group">
+    <button data-person="Pizza">Pizza</button>
+    <button data-person="Pasta">Pasta</button>
+    <button data-person="Soup">Soup</button>
+    <button data-person="Ice Cream">Ice Cream</button>
+    <button data-person="Candy">Candy</button>
+    <button data-person="BBQ">BBQ</button>
+    <button data-person="Chinese Food">Chinese</button>
+    <button data-person="Hamburger">Hamburger</button>
+    <button data-person="Gumbo">Gumbo</button>
+    <button data-person="Burrito">Burrito</button>
+  </div>
+  <div id="gifs-appear-here">
+  </div>
+
+  <form id="food-form">
+    <label for="food-input">Search for delicious food</label>
+    <input type="text" id="food-input"><br>
+
+    <!-- This button will trigger our AJAX call -->
+    <input id="find-food" type="submit" value="Food Search">
+  </form>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
